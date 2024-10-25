@@ -6,13 +6,6 @@ import time
 
 # Òþ²Ødb
 
-database = {
-    "database": "qqbot",
-    "user": "bot",
-    "password": "SDDXminecraft",
-    "host": "www.sducraft.top",
-    "port": 5432
-}
 
 con = psycopg2.connect(database=d['database'], user=d['user'], password=d['password'], host=d['host'], port=d['port'])
 cur = con.cursor()
